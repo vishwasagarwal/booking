@@ -28,7 +28,7 @@ router.post('/rooms', requireJWT, (req, res) => {
 
 // Function to convert UTC JS Date object to a Moment.js object in AEST
 const dateAEST = date => {
-  return momentTimezone(date).tz('Australia/Sydney')
+  return momentTimezone(date).tz('delhi/india')
 }
 
 // Function to calculate the duration of the hours between the start and end of the booking
